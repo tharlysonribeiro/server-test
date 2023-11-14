@@ -6,7 +6,7 @@ services:
     image: node:latest
     working_dir: /usr/src/app
     volumes:
-      - ./server-test:/usr/src/app
+      - /home/suporte/server-test:/usr/src/app
     ports:
       - "3000:3000"
     command: "npm start"
